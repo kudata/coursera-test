@@ -1,0 +1,38 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: darkgray;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+
+.navbar-brand a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+span {
+    color: black;
+}
+
+#chicken-text, #beef-text, #sushi-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: darkgray;
+}
+
+#chicken-text >h3 , #beef-text > h3, #sushi-text > h3 {
+    padding-top: 15px;
+}
